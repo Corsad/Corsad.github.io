@@ -39,9 +39,12 @@ body{
 	padding: 10px; 
 }
 
-.contact p{
+.contact{
 	padding-top: 20px;
-	margin-right: 50px;
+}
+
+.contact p{
+	margin-right: 10px;
 	color: gray;
 	float: left;
 }
