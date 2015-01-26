@@ -1,16 +1,7 @@
-<html>
-<head>
-    <title>{{page.title}}</title>    
-</head>
+---
+layout: default
+---
 
-<body>   
-    {% include header.html %}
-    <p class="meta">{{ page.date | date_to_string }}</p>
-
-    <div class = "post">
-        {{ content }}
-    </div>
-    
-    <script src="./bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
-</body>
-</html>
+<div class="post">
+	{{content}}
+</div>
