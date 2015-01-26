@@ -1,38 +1,20 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-    <title>Reading List - Home</title>
-    <link rel="stylesheet" href="./bootstrap-3.2.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./bootstrap-3.2.0-dist/css/bootstrap-theme.min.css">
-    <link type="text/css" rel="stylesheet" href="main.css">
+    <title>Reading List - Home</title>    
 </head>
 
 <body>   
-    <div class="container">
-        <div class="jumbotron">
-            <h1>Reading List</h1>
-        </div>
-    </div>
-
-    <div class="container">   
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/index.html">Home</a>
-                <a class="navbar-brand" href="/Project/index.html">Project</a>
-                <a class="navbar-brand" href="/test.php">Test</a>
-            </div>            
-        </div>
-    </nav>
-    <script src="../bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
-
+    {% include header.html %}
     <div class="intro">
         <div class = "container">
-            <h2>This website is for storing light novel</h2>
+            <ul>
+            {% for post in site.posts %}
+              <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}"> - {{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
         </div>
     </div>
     
-    <script src="../bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
 </body>
-
 </html>

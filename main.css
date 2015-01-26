@@ -18,3 +18,9 @@ body{
     text-align: right;
     color: white;
 }
+
+.post {
+	border-radius: 9px;
+	border-top-color: red;
+	border-top-width: 2px;
+}
