@@ -1,0 +1,20 @@
+body{
+    color: black;
+}
+
+.navbar-brand {
+    padding-left: 0px;
+}
+
+.jumbotron{
+    background-image: url("./Picture/Pixiv 39839467-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.jumbotron h1{
+    font-size: 50px;
+    text-align: right;
+    color: white;
+}
