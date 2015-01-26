@@ -42,4 +42,5 @@ body{
 .contact p{
 	margin-right: 5px;
 	color: gray;
+	float: left;
 }
