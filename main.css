@@ -2,8 +2,11 @@ body{
     color: black;
 }
 
+/* header.html */
+
 .navbar-brand {
     padding-left: 0px;
+    font-size: 10px;
 }
 
 .jumbotron{
@@ -19,9 +22,15 @@ body{
     color: white;
 }
 
+/* index.html */
+.date{
+	color: #aeaeae;
+}
+
+/* _layout/post.html */
 .post {
-	border: 2px solid;
+	border: 1px solid;
 	border-radius: 9px;
-	border-top-color: red;
 	padding: 10px; 
 }
+
