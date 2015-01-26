@@ -20,8 +20,8 @@ body{
 }
 
 .post {
+	border: 2px solid;
 	border-radius: 9px;
 	border-top-color: red;
-	border-top-width: 2px;
 	padding: 10px; 
 }
