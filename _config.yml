@@ -1,0 +1,5 @@
+name: Corsad's Random List
+source:		 ./
+destination: ./_site
+plugins:     ./_plugins
+markdown: redcarpet 
