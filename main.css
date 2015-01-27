@@ -62,3 +62,9 @@ body{
 	color: gray;
 	float: left;
 }
+
+.icon{
+    float: left;
+    height: 20px;
+    width: 20px;
+}
