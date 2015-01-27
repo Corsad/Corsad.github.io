@@ -84,5 +84,6 @@ body{
 .postHeader{
     font-size: 24px;
     color: #248eff;
-    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
