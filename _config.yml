@@ -6,3 +6,4 @@ markdown: redcarpet
 highlighter: pygments
 
 category-list: [random, programming, jekyll, python]
+default-image: question.jpg
