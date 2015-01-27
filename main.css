@@ -21,7 +21,9 @@ body{
     font-size: 50px;
     text-align: right;
     color: white;    
-    margin: 5px;
+    margin: 0px;
+    margin-right: 15px;
+    margin-left: 10px;
 }
 
 .transparent{
@@ -30,7 +32,6 @@ body{
     display: inline-block;
     border-radius: 80px;    
 }
-
 /* index.html */
 
 .posts li{
