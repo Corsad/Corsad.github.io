@@ -14,20 +14,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 15px;
+    text-align: right;
 }
 
 .jumbotron h1{
     font-size: 50px;
     text-align: right;
-    color: white;
+    color: white;    
+    margin: 5px;
 }
 
 .transparent{
-    background-color: black;
-    opacity: 0.4;
-    display: inline-block;
-    float: right;
+    background-color: rgba(255, 255, 255, 0.1);
     text-align: left;
+    display: inline-block;
+    border-radius: 80px;    
 }
 
 /* index.html */
