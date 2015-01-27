@@ -3,5 +3,7 @@ layout: default
 ---
 
 <div class="contentPost">
-	{{content}}
+	<span class="date" color="gray">{{ post.date | date_to_string }}</span><br/>
+	<h1 class="postHeader" >{{page.title}}<h1><br/><br/>
+	{{content}}	
 </div>

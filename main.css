@@ -80,3 +80,9 @@ body{
     margin-left: 4px;
     margin-right: 10px;
 }
+
+.postHeader{
+    font-size: 24px;
+    color: #248eff;
+    padding-bottom: 10px;
+}
