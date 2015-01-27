@@ -23,8 +23,11 @@ body{
 }
 
 .transparent{
-    color: black;
-    opacity: 0.2
+    background-color: black;
+    opacity: 0.4;
+    display: inline-block;
+    float: right;
+    text-align: left;
 }
 
 /* index.html */
