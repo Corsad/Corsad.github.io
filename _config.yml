@@ -3,3 +3,6 @@ source:		 ./
 destination: ./_site
 plugins:     ./_plugins
 markdown: redcarpet 
+highlighter: pygments
+
+category-list: [random, programming, jekyll, python]

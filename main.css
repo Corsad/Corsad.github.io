@@ -6,7 +6,7 @@ body{
 
 .navbar-brand {
     padding-left: 0px;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .jumbotron{
@@ -25,7 +25,12 @@ body{
 /* index.html */
 
 .posts li{
-	list-style-type: none;
+	list-style-type: none;    
+}
+
+.posts{
+    border: 1px solid #aeaeae;
+    border-radius: 9px;
 }
 
 .date{	
@@ -33,10 +38,19 @@ body{
 }
 
 /* _layout/post.html */
-.post {
-	border: 1px solid #aeaeae;
-	border-radius: 9px;
-	padding: 10px; 
+.midPost {
+    border-bottom: 1px solid #aeaeae;	
+    padding: 10px; 
+}
+
+.lastPost {
+    padding: 10px; 
+}
+
+.contentPost{
+    border: 1px solid #aeaeae;
+    border-radius: 9px;
+    padding: 10px; 
 }
 
 .contact{

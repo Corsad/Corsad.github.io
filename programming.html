@@ -1,13 +1,19 @@
 ---
-layout: default
-title: Corsad's Random List
+layout: category
+title: Programming's Notes
+category: programming
 ---
+
+<!--
+{% if site.categories.programming %}
 <div class = "posts">
-{% for post in site.posts %}
-	{% if post == site.posts[-1] %}
+{% for post in site.categories.programming %}
+  	{% if post == site.categories.programming[-1] %}
        	<li class ="lastPost"><span class = "date">{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{post.title}}</a></li>
 	{% else %}
 		<li class ="midPost"><span class = "date">{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{post.title}}</a></li>
 	{% endif %}
 {% endfor %}
 </div>
+{% endif %}
+-->
