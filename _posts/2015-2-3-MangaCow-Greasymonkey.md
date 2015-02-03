@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python
+title: GreaseMonkey's script for MangaCow
 resource: true
 categories: [programming, jquery, greasymoney]
 ---
